@@ -1,0 +1,1 @@
+toString: A toString() is an in-built method in Java that returns the value given to it in string format. Hence, any object that this method is applied on, will then be returned as a string object.
