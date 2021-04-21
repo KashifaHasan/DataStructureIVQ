@@ -1,8 +1,8 @@
-package CollectionsIVQuestions;
+package ArrayIVQuestions;
 
 import java.util.ArrayList;
 
-public class DeleteSubsequentDuplicateCharacters<sout> {
+public class DeleteSubsequentDuplicateCharacters {
 
     public static void main(String[] args) {
 
@@ -34,6 +34,12 @@ public class DeleteSubsequentDuplicateCharacters<sout> {
         }
         }
         System.out.println("After deleting the subsequent character: " + uniqueArrayList);
+
+
+        //String input = "aaaaBbBBBbCDdefghiIIiJ";
+        String value = "Amazon is a good comapny";
+        value = value.replaceAll("(?i)(.)\\1+","$1");
+        System.out.println("Value of :" + value);
 
     }
 

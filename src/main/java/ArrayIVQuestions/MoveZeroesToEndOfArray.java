@@ -18,6 +18,7 @@ public class MoveZeroesToEndOfArray {
         }
     // Function to move all zeros present in the array to the end
         public static void reorder(int[] A){
+        //Passing an array full of integer elements
 
             // `k` stores the index of the next available position
             int k=0;
