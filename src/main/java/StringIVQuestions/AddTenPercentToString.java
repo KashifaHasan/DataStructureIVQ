@@ -22,17 +22,21 @@ public class AddTenPercentToString<aLen> {
         Boolean EndFlag = false;
         int intY = 0;
         int X;
+
+        //i = o-->'a',i = 1-->'b',i = 2-->'c',i = 3-->'3',i = 4-->'1',i = 5-->'d',i = 6-->'e',
+        //When the starting point is 0 we increment it until it reaches highest index of array (length-1)
         for (int i = 0; i <= aLen - 1; i++) {
 
-            flag = Character.isDigit(a.charAt(i));
-            if (flag) {
-                str.append(a.charAt(i));
+            flag = Character.isDigit(a.charAt(i));//isDigit, its a build in method of Character contains integer or not
+            if (flag) { //enter if block when flag = true
+                str.append(a.charAt(i));//str="31" in the StringBuilder format
                 StartFlag = true;
-            } else {
-                if (StartFlag) {
+            } else { //enter if block when flag = false
+                if (StartFlag) { //enter if block when Startflag = true
                     EndFlag = true;
                 }
-                if (StartFlag && EndFlag) {
+                if (StartFlag && EndFlag) {  //enter if block when Startflag && endFlag = true
+                    //Convert StringBuilder to String
                     X = Integer.parseInt(str.toString());
                     intY = X + (int) (0.1 * X);
                     StartFlag = false;
