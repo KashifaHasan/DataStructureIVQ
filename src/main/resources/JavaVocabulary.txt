@@ -1,0 +1,7 @@
+toString: A toString() is an in-built method in Java that returns the value given to it in string format. Hence, any object that this method is applied on, will then be returned as a string object.
+
+String: Immutable, that means u can't change the value of the element.
+
+StringBuffer: Mutable, that means u can change the value of the element.
+
+Multi-threading means its thread safe, its lockdown the thread.Once the execution is completely done than the thread will be open to other threads.
