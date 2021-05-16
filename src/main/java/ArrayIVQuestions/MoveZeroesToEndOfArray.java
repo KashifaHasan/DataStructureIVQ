@@ -12,6 +12,7 @@ public class MoveZeroesToEndOfArray {
          * Output: { 6, 8, 2, 3, 4, 1, 0, 0, 0 }
          */
         int [] A = { 6, 0, 8, 2, 3, 0, 4, 0, 1 };
+        int [] B = {0,1,0,2,0,3,4};
         reorder(A);
         System.out.println(Arrays.toString(A));
 
@@ -24,8 +25,7 @@ public class MoveZeroesToEndOfArray {
             int k=0;
             // do for each element
             for (int i :A){
-                // if the current element is non-zero, put the element at the
-                // next free position in the array
+                // if the current element is non-zero, put the element at the next free position in the array
                 if(i!=0){
                     A[k++] = i;
                 }

@@ -5,6 +5,7 @@ public class FactorialProblems {
 
     public static void main (String args[]){
 
+       // Find the series of numbers in an array which gives the sum value as 3
         // Find the factorial of 4
         int number =4,result;
         result = factorial(number);

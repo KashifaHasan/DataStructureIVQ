@@ -1,6 +1,6 @@
 package StringIVQuestions;
 
-public class RefactorAddTenPercent {
+public class RefactorCodeForAddTenPercentToString {
 
     public static void main(String[] args) {
         String a = "abc31de54op";

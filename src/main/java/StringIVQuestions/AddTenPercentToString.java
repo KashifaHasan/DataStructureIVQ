@@ -1,10 +1,9 @@
 package StringIVQuestions;
 
-public class AddTenPercentToString<aLen> {
+public class AddTenPercentToString{
 
     /**
      * Parse a string, extract the number in that string, add 10% to that number then print the string with new value.
-     * <p>
      * First split the string into string array,
      * then iterate over that array,
      * find the string that contains the number,

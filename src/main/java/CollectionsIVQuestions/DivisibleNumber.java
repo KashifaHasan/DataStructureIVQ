@@ -25,7 +25,6 @@ public class DivisibleNumber {
             System.out.println("Number is not divisible by 8,16 or 32");
         }
 
-
     }
 
 
